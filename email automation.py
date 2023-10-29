@@ -10,7 +10,9 @@ def mail_automation():
 
         subject = 'Testing gmail automation'
 
-        body = """     main message  """
+        body = """     elvish bhai ke aage koi kuch bol sakta hai kya!!! 
+ elvish bhaiiii... 
+"""
 
 
         em = EmailMessage()

@@ -4,9 +4,9 @@ from email.message import EmailMessage
 
 
 def mail_automation():    
-        email_sender = 'Sender's Email Id'
-        email_password = 'Your Email's app Password'   #use mail's app-password because actual password will not get the access due to dualfactor authentication (google ki backchodi hai bas)
-        email_receiver = 'Reciever's Email'
+        email_sender = 'Sender Email Id'
+        email_password = 'Sender Email app-Password'   #use mail's app-password because actual password will not get the access due to dualfactor authentication (google ki backchodi hai bas)
+        email_receiver = 'Reciever Email'
 
         subject = 'Subject of the mail'
 

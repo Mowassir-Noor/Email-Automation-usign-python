@@ -4,15 +4,18 @@ from email.message import EmailMessage
 
 
 def mail_automation():    
-        email_sender = 'sobannoor.testing@gmail.com'
-        email_password = 'qypp wuzn ljrt cdsk'   #using app password because actual pass doesn't get the access (google ki backchodi hai bas)
-        email_receiver = 'mowassirnoor05@gmail.com'
+        email_sender = 'Sender's Email Id'
+        email_password = 'Your Email's app Password'   #use mail's app-password because actual password will not get the access due to dualfactor authentication (google ki backchodi hai bas)
+        email_receiver = 'Reciever's Email'
 
-        subject = 'Testing gmail automation'
+        subject = 'Subject of the mail'
 
-        body = """     elvish bhai ke aage koi kuch bol sakta hai kya!!! 
- elvish bhaiiii... 
-"""
+        body = """     Body of your mail 
+
+           elvish bhai ke aage koi kuch bol sakta hai kya,
+           elvish bhaiiiii...............
+        
+        """
 
 
         em = EmailMessage()
